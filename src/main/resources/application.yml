@@ -1,0 +1,10 @@
+aws:
+  region: us-east-1
+  s3:
+    bucket-name: file-upload-bucket-7-25
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
